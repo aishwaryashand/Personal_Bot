@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/railyatri/Desktop/chatbot/model.tflearn"
+all_model_checkpoint_paths: "/home/railyatri/Desktop/chatbot/model.tflearn"

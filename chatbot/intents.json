@@ -1,0 +1,35 @@
+{"intents":
+  [
+    {"tag": "greeting",
+     "patterns": ["Hi","How are you?", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "Heya"],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?", "name"],
+     "responses": ["You can call me Ginie.", "I'm Ginie!", "I'm Genie the ChatBot."]
+    },
+    {"tag": "hours",
+     "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+     "responses": ["I'm always there to assist you.", "I'm here 24*7"]
+    },
+    {
+      "tag": "meaning_of_corona",
+      "patterns": ["what do you mean by corona","what exactly is coronavirus","meaning of covid-19"],
+      "responses": [""]
+    },
+    {
+      "tag": "corona",
+      "patterns": ["pandemic","covid-19","corona","coronavirus","virus","corona cases","cases","tell me about corona cases","tell me about least corona cases"],
+      "responses": ["First tell me the what you want to know about, <br> 1.) Total Cases 2.) Total Deaths 3.) Total Recovered cases","Do you want to know the country having least cases?","Do you want to know the country having maximum cases?"]
+    },
+    {
+      "tag": "facts",
+      "patterns": ["myths","facts","tell me some facts"],
+      "responses": ["I'm still learning, will tell you soon"]
+    }
+  ]
+}
